@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700;900&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+body {
+  background-image: url(./images/white-noise.png);
+  background-repeat: repeat;
+}
+
+.pagetop {
+  background-image: url(./images/1f2937-noise.png);
+  background-repeat: repeat;
+  color: white;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 32px;
+  padding-top: 16px;
+}
+
+.navbar ul{
+  display: flex;
+  list-style-type: none;
+  gap: 1.2em;
+  font-size: 18px;
+  letter-spacing: 1px;
+  margin-bottom: 40px;
+  color: #c7cad0;
+  font-weight: 300;
+}
+
+.navbar .lh {
+  color: white;
+  font-weight: 700;
+}
+
+.navbar li:nth-child(3) {
+  margin-left: auto;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5%;
+}
+
+.hero-left h1 {
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.hero-left p {
+  font-weight: 300;
+  color: #d7dadf;
+  font-size: 18px;
+}
+
+.hero-left {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 0;
+  gap: 10px;
+}
+
+.hero img {
+  width: 300px;
+  height: 169px;
+}
+
+.signup {
+  width: fit-content;
+  padding: 1.3px 26px;
+  border: none;
+  border-radius: 15px;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 8px 30px;
+  background-color: #3882f6;
+  color: white;
+}
+
+.signup:hover {
+  background-color: #1f498e;
+}
+
+.signup:active {
+  padding: 7px 28px;
+  margin: 1px 2px;
+}
