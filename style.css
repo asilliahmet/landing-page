@@ -4,6 +4,7 @@
   margin: 0px;
   padding: 0px;
   font-family: 'Roboto', sans-serif;
+  display: border-box;
 }
 
 a {
@@ -15,6 +16,8 @@ body {
   background-image: url(./images/white-noise.png);
   background-repeat: repeat;
 }
+
+/* pagetop styling */
 
 .pagetop {
   background-image: url(./images/1f2937-noise.png);
@@ -51,6 +54,7 @@ body {
   justify-content: space-between;
   align-items: center;
   gap: 5%;
+  /* flex: 1 1 auto; */
 }
 
 .hero-left h1 {
@@ -69,11 +73,12 @@ body {
   flex-direction: column;
   flex: 1 1 0;
   gap: 10px;
+  max-width: 632px;
 }
 
 .hero img {
-  width: 300px;
-  height: 169px;
+  width: 40vw;
+  max-width: 360px;
 }
 
 .signup {
@@ -95,4 +100,105 @@ body {
 .signup:active {
   padding: 7px 28px;
   margin: 1px 2px;
+}
+
+/* news styling */
+
+.news {
+  padding-left: 20vw;
+  padding-right: 20vw;
+  padding-top: 32px;
+  padding-bottom: 64px;
+}
+
+.news h2 {
+  margin-bottom: 32px;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 900;
+}
+
+.news img {
+  border: 2px solid #3882f6;
+  width: 12vw;
+  border-radius: 15px;
+}
+
+.news p {
+  text-align: center;
+}
+
+.news-container {
+  display: flex;
+  gap: 4vw;
+}
+
+.news-element {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 5px;
+}
+
+/* quote styling */
+
+.quote {
+  background-color: rgba(0, 0, 0, 0.074);
+  padding-left: 21vw;
+  padding-right: 21vw;
+  padding-top: 48px;
+  padding-bottom: 48px;
+  display: flex;
+  flex-direction: column;
+}
+
+.quote-content {
+  font-size: 24px;
+  font-weight: 100;
+}
+
+.quote-guy {
+  font-size: 16px;
+  font-weight: 700;
+  align-self: flex-end;
+}
+
+/* calling styling */
+
+.calling {
+  padding-left: 10vw;
+  padding-right: 10vw;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.calling .signup {
+  border: 3px solid white;
+  flex: 0 0 auto;
+}
+
+.calling-box {
+  background-color: #3882f6;
+  display: flex;
+  justify-content: space-between;
+  padding: 3vw 5vw;
+  border-radius: 20px;
+  align-items: center;
+}
+
+.calling-left {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+/* footer styling */
+
+footer {
+  padding: 16px 0px;
+  text-align: center;
+  background-image: url(./images/1f2937-noise.png);
+  background-repeat: repeat;
+  color: white;
 }
