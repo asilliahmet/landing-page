@@ -40,6 +40,17 @@ body {
   font-weight: 300;
 }
 
+.navbar li, .navbar .lh {
+  /* background-color: white; */
+  padding: 5px;
+}
+
+.navbar li:hover, .navbar .lh:hover{
+  color: #1f2937;
+  background-color: white;
+  border-radius: 5px;
+}
+
 .navbar .lh {
   color: white;
   font-weight: 700;
@@ -79,6 +90,8 @@ body {
 .hero img {
   width: 40vw;
   max-width: 360px;
+  box-shadow: 1px 1px 5px #171f29, -1px -1px 5px #171f29;
+  border-radius: 3px;
 }
 
 .signup {
@@ -122,6 +135,7 @@ body {
   border: 2px solid #3882f6;
   width: 12vw;
   border-radius: 15px;
+  box-shadow: 1px 1px 5px #c5c5c5, -1px -1px 5px #c5c5c5;
 }
 
 .news p {
